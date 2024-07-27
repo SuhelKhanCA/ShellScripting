@@ -5,6 +5,9 @@
 # This script outputs the node health
 
 set  -x # Debug mode
+set -e # Exit the script when an error occured
+set -o pipefail
+
 df -h
 
 free -g
