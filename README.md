@@ -19,28 +19,32 @@
 
 ### Q4: Write a script to print only errors from  a remote log.
 
-### Q: 5 Write a shell script to print numbers divided by 3 & 5 and not 15.
+### Q5: Write a shell script to print numbers divided by 3 & 5 and not 15.
 
-### Q: Write a script to print number of "S" in Mississippi.
+### Q6: Write a script to print number of "S" in Mississippi.
+        grep -o "s" <<< "mississipi" | wc -l
 
-### Q: How will you debug the shell script?
+### Q7: How will you debug the shell script?
+        set -x
 
-### Q: What is crontab in Linux? Can you provide an example of usage?
+### Q8: What is crontab in Linux? Can you provide an example of usage?
+        --automate script--
+### Q9: How to open a read-only file?
+        vim -r test.txt
 
-### Q: How to open a read-only file?
+### Q10: What is a difference between soft and hard link?
 
-### Q: What is a difference between soft and hard link?
+### Q11: What is a difference between break and continue statements ?
 
-### Q: What is a difference between break and continue statements ?
+### Q12: What are some disadvantages of Shell scripting?
 
-### Q: What are some disadvantages of Shell scripting?
+### Q13: What a different types of loops and when to use?
 
-### Q: What a different types of loops and when to use?
+### Q14: Is bash dynamic or statically typed and why?
 
-### Q: Is bash dynamic or statically typed and why?
+### Q15: Explain about a network troubleshooting utility?
+        traceroute <url>
+### Q16: How will you sort list on names in a file ?
 
-### Q: Explain about a network troubleshooting utility?
-
-### Q: How will you sort list on names in a file ?
-
-### Q: How will you manage logs of a system that generate huge log files everyday?
+### Q17: How will you manage logs of a system that generate huge log files everyday?
+        logrotate(gzip, zip) and delete after 30 days...
