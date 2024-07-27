@@ -10,3 +10,5 @@ df -h
 free -g
 
 nproc
+
+ps -ef | grep "python" | awk -F" " {print $2}
